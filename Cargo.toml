@@ -1,0 +1,11 @@
+[package]
+name = "fuzzy-logic"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Fuzzy logic in Rust — fuzzy sets, membership functions, defuzzification, fuzzy control systems"
+repository = "https://github.com/SuperInstance/fuzzy-logic"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
